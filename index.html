@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+
+  <body>
+    <div class="calculator">
+
+    <form id="calculatorForm">
+      <!-- Input fields for numbers and operator -->
+      <div class="input">
+        <input type="number" id="num1" required placeholder="Enter First Number" />
+        <!-- Dropdown for selecting the operator -->
+        <div class="align operator">
+          <select id="operator" class="operator-select">
+            <option value="" disabled selected>Select Operator</option>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="*">*</option>
+            <option value="/">/</option>
+            <option value="%">%</option>
+            <option value="Percent">Percent</option>
+            <option value="Power">Power</option>
+          </select>
+        </div>
+        <input type="number" id="num2" required placeholder="Enter Second Number" />
+      </div>
+
+      <!-- Button container for calculation and clearing -->
+      <div class="button-container">
+        <button type="button" id="calculateButton">Result</button>
+        <button type="button" id="clearButton">Clear</button>
+      </div>
+      <br />
+
+      <!-- Result display -->
+      <label for="result">Output:</label>
+      <input type="text" id="result" readonly />
+    </form>
+</div>
+    <!-- JavaScript file for Calculator Logic -->
+    <script src="app.js"></script>
+  </body>
+</html>
