@@ -8,9 +8,13 @@ This is a simple calculator project that allows users to perform basic arithmeti
 - Subtraction: Subtract one number from another.
 - Multiplication: Multiply two numbers.
 - Division: Divide one number by another.
+- Modulo : Modulo of two numbers.
+- Percentage : Percent of one number with another.
+- Power: Exponential value of one number with another.
 - Clear: Clear the input fields and result.
 - Error handling for division by zero.
 - Responsive design for various screen sizes.
+
 
 ## Technologies Used
 
