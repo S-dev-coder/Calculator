@@ -28,5 +28,5 @@ This is a simple calculator project that allows users to perform basic arithmeti
 6. To clear the input fields and result, click the "Clear" button.
 
 ## Live
-[Try Calculator](https://s-dev-coder.github.io/Calculator-/)
-# Calculator
+[Try Calculator](https://visionary-queijadas-17bc53.netlify.app)
+
