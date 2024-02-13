@@ -1,6 +1,6 @@
 # Calculator 
 
-This is a simple calculator project that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.
+This is a simple calculator project that allows users to perform basic arithmetic operations such as addition, subtraction, multiplication, division , modulo ,percent and power.
 
 ## Features
 
